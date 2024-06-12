@@ -1,11 +1,12 @@
 # LaraveLLama
-![image](https://github.com/xndrgit/xndr-laravellama/assets/115892862/bfb499ce-238e-4fb9-a0ef-dd0c0e3e30c1)
 
 **LaraveLLama** is your top choice for building modern, full-stack web applications with artificial intelligence, right from your local environment.
 
 Start your project effortlessly with a Laravel 10 installation. LaraveLLama also comes with Vue.js and Vue Router pre-configured! Plus, it includes the Ollama API, offering functionalities for model management, prompt generation, format setting, and more.
 
 This repository is perfect for developers eager to harness the power of AI in their applications. Experience the convenience of having the Ollama API fully integrated and ready to use in your Laravel projects.
+
+![image](https://github.com/xndrgit/xndr-laravellama/assets/115892862/bfb499ce-238e-4fb9-a0ef-dd0c0e3e30c1)
 
 **Just do it! Join the Future of Web Development!**
 
