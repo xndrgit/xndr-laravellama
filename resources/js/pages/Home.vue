@@ -100,6 +100,7 @@ export default {
                 this.response = data.response;
             } catch (error) {
                 console.error('Error fetching response:', error);
+                console.log(error.message);
                 this.response = `Error fetching response: ${error.message}`;
             } finally {
                 this.loading = false;
