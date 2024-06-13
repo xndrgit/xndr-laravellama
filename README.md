@@ -11,7 +11,7 @@ This repository is perfect for developers eager to harness the power of AI in th
 **Just do it! Join the Future of Web Development!**
 
 ## A sneak peek into what we have here🙈:
-![image](https://github.com/xndrgit/xndr-laravellama/assets/115892862/261f1958-511d-485c-ac97-f05853fcf5e8)
+![image](https://github.com/xndrgit/xndr-laravellama/assets/115892862/5b166163-bbf8-4172-911d-12b0827096a4)
 
 ## Prerequisites 🛠️
 Before you begin, ensure that you have the following prerequisites installed on your system:
