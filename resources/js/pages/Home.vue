@@ -28,9 +28,17 @@
                         <a href="https://github.com/xndrgit/xndr-laravellama">
                             <img alt='laravellama-logo' src="/imgs/laravellama-logo.jpg"/>
                         </a>
-                        <p v-if="response">{{ response }}</p>
+                        <p v-if="!loading">{{ response }}</p>
+                        <div v-if="loading" class="loader">
+                            <hr/>
+                            <hr/>
+                            <hr/>
+                        </div>
                     </div>
+
                 </div>
+
+
                 <div class='main-bottom'>
                     <div v-if="!loading" class='search-box col-12 col-sm-6'>
                         <form @submit.prevent="send">
@@ -169,6 +177,7 @@ export default {
     }
 
     img {
+        min-width: 40px;
         width: 40px;
         border-radius: 50%;
         cursor: pointer;
@@ -187,6 +196,25 @@ export default {
         display: flex;
         align-items: start;
         gap: 20px;
+    }
+
+    .loader {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        hr {
+            border-radius: 4px;
+            border: none;
+            background: #333; /* Darker background for dark theme */
+            background: linear-gradient(to right, #444, #777, #444); /* Dark gradient */
+            background-size: 800px 50px;
+            height: 20px;
+
+            animation: loader 3s infinite linear;
+        }
+
     }
 }
 
@@ -238,6 +266,16 @@ export default {
         text-align: center;
         font-weight: 300;
         color: #bbbbbb;
+    }
+}
+
+
+@keyframes loader {
+    0% {
+        background-position: -800px 0;
+    }
+    100% {
+        background-position: 800px 0;
     }
 }
 </style>
