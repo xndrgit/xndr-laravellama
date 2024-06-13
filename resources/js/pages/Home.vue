@@ -17,13 +17,13 @@
                     </div>
                 </div>
                 <div v-else class="result text-start col-10">
-                    <div class="result-title">
-                        <a href="https://github.com/xndrgit/xndr-laravellama">
-                            <img alt="user-icon" src="/imgs/user-icon.jpg"/>
-                        </a>
-                        <p v-if="!promptCopy">Developed by XndrDEV</p>
-                        <p>{{ promptCopy }}</p>
-                    </div>
+                    <!--                    <div class="result-title">-->
+                    <!--                        <a href="https://github.com/xndrgit/xndr-laravellama">-->
+                    <!--                            <img alt="user-icon" src="/imgs/user-icon.jpg"/>-->
+                    <!--                        </a>-->
+                    <!--                        <p v-if="!promptCopy">Developed by XndrDEV</p>-->
+                    <!--                        <p>{{ promptCopy }}</p>-->
+                    <!--                    </div>-->
                     <div class="result-data">
                         <a href="https://github.com/xndrgit/xndr-laravellama">
                             <img alt='laravellama-logo' src="/imgs/laravellama-logo.jpg"/>
