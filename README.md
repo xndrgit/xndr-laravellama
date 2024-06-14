@@ -30,6 +30,8 @@ Feel free to reach out to me if you have any questions or need assistance:
 ```bash
 git clone https://github.com/xndrgit/xndr-laravellama.git your-project-name
 ```
+### rename .env-example to .env
+
 ### that's it!
 ```bash
 npm install
