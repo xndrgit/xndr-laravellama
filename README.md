@@ -24,6 +24,20 @@ Feel free to reach out to me if you have any questions or need assistance:
 - Gmail: [mymails.xander@gmail.com](mailto:mymails.xander@gmail.com)
 
 
+## How to start use it?🛠
+
+### clone the repo
+```bash
+git clone https://github.com/xndrgit/xndr-laravellama.git your-project-name
+```
+### that's it!
+```bash
+npm install
+composer install
+npm run dev
+php artisan serve
+```
+
 ## How was integrated ollama in laravel? How it works?🛠
 
 ### If you use laravel 10.x, please use the following version V1.0.5
