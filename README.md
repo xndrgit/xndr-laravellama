@@ -26,13 +26,25 @@ Feel free to reach out to me if you have any questions or need assistance:
 
 ## How to start use it?🛠
 
-### clone the repo
-```bash
-git clone https://github.com/xndrgit/xndr-laravellama.git your-project-name
-```
-### rename .env-example to .env
+### 1 Clone the existing repository
+git clone https://github.com/username/existing-repo.git
 
-### that's it!
+### 2 Remove the old remote 
+git remote remove origin
+
+### 3 Create a New Repository on GitHub
+    - Go to [GitHub](https://github.com/)
+    - Create a new repository
+
+### 4 Add the new remote repository
+git remote add origin https://github.com/username/new-repo.git
+
+### 5 Push changes to the new GitHub repository
+git push -u origin main
+
+### 6 rename .env-example to .env
+
+### 7 that's it!
 ```bash
 npm install
 composer install
